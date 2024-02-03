@@ -1,12 +1,43 @@
+body {
+   background: #eae9e9;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+    color: #d2324a;
+}
+.input {
+   width:450px;
+    border: solid 2px #dcc0c6;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: start;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+li {
+    border: solid 1px pink;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+.SubmitBtn {
+   border: solid 2px #dcc0c6;
+    background-color: white;
+    color: #de3c58;
+}
+.deleteBtn{
+    float:right;
+    border: none;
+    background: white;
+    color:red;
+    font-size: 12px;
+}
